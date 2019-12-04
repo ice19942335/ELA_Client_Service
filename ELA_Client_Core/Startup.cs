@@ -29,9 +29,6 @@ namespace ELA_Client_Core
             }
 
             app.UseStaticFiles();
-
-            app.UseRouting();
-
             app.Run(async context =>
             {
                 context.Response.ContentType = "text/html";
